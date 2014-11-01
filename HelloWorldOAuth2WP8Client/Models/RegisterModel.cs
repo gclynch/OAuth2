@@ -1,0 +1,11 @@
+﻿
+namespace HelloWorldOAuth2WP8Client.Models
+{
+    // data for user registration, same as web api service model class
+    public class RegisterModel
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+    }
+}
